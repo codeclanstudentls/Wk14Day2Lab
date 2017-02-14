@@ -1,0 +1,80 @@
+body{
+  
+  /*background-image: url("http://conversationsabouther.net/wp-content/uploads/2014/08/Ridley-Scott.png");*/
+  /*background-image: url("https://cdn0.vox-cdn.com/thumbor/zCdSa8h8pbWTRy8IMC8YuibQesI=/39x0:3111x2048/1310x873/cdn0.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png");*/
+  
+
+
+}
+
+.filmContainer{
+  font-family: sans-serif;
+  color: white;
+ /* background-image: url("http://moviepicnicnight.com/wp-content/uploads/2015/08/movie.png");*/
+  background-image: url("https://cdn0.vox-cdn.com/thumbor/zCdSa8h8pbWTRy8IMC8YuibQesI=/39x0:3111x2048/1310x873/cdn0.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png");
+}
+
+.filmDetail{
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+  margin: left;
+  max-width: 400px;
+
+}
+
+.counter-box, .comment-box{
+  border: 2px solid mediumaquamarine;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px auto;
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+button{
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: whitesmoke;
+}
+
+button:hover{
+  background-color: dodgerblue;
+}
+
+.comment{
+  border-bottom: 1px solid mediumaquamarine;
+  padding: 10px;
+}
+
+.comment-form{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.comment-form input{
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.comment-form input[type=submit]{
+  width: 100%;
+  padding: 10px;
+  margin 20px auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: mediumaquamarine;
+  border-radius: 5px;
+}
+
+.countries-box{
+  
+}
